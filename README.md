@@ -2,7 +2,9 @@
 I'm curating a portfolio of data science projects I've worked on or am currently working on. Some are for fun and curiosity; others came from a data science bootcamp.
 
 # Titanic
-Like many others, my first significant data science project is based on a version of the Titanic dataset. I admit to getting engrossed in the cleaning process and arriving at the analysis feeling excited to build on that foundation and demonstrate the historically expected results.
+Like many others, my first significant data science project is based on a version of the Titanic dataset. I admit to getting engrossed in the cleaning process and arriving at the analysis feeling excited to build on that foundation and demonstrate the historically expected results. My feedback on this project has greatly encouraged me to dive deeper into data science.
+
+![Black and white illustration of the sinking of the Titanic. The Titanic ocean liner is going down by the head with the stern in the air, showing the propellers. There are icebergs in the background. In the foreground, survivors are rowing wooden lifeboats.](Stöwer_Titanic.jpg?raw=true)
 
 The project was a bootcamp task to:
 
