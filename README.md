@@ -6,7 +6,7 @@ Like many others, my first significant data science project is based on a versio
 
 The project was a bootcamp task to:
 
-> Create a Jupyter notebook called titanic.ipynb. Use this notebook to create an in-depth EDA on the Titanic dataset provided. Your EDA should contain descriptions of each step and appropriate visualisations. Use the metadata for the Titanic dataset to familiarise yourself with the data.
+> Create a Jupyter notebook called titanic.ipynb. Use this notebook to create an in-depth EDA on the Titanic [dataset]<https://github.com/SarennahL-C/pf-titanic/blob/69a642be9527a974a3509388138ab50eee0b7283/Titanic.csv> provided. Your EDA should contain descriptions of each step and appropriate visualisations. Use the metadata for the Titanic dataset to familiarise yourself with the data.
 Use the following guiding questions for your EDA:
 > 1. What is the most important factor in determining whether a person was likely to survive the sinking of the Titanic?
 > 2. In the movie, the upper-class passengers were given preference on lifeboats. Does this show in the data?
