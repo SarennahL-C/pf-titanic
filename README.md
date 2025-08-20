@@ -6,7 +6,7 @@ Like many others, my first significant data science project is based on a versio
 
 The project was a bootcamp task to:
 
-> Create a Jupyter notebook called titanic.ipynb. Use this notebook to create an in-depth EDA on the Titanic [dataset]<https://github.com/SarennahL-C/pf-titanic/blob/69a642be9527a974a3509388138ab50eee0b7283/Titanic.csv> provided. Your EDA should contain descriptions of each step and appropriate visualisations. Use the metadata for the Titanic dataset to familiarise yourself with the data.
+> Create a Jupyter notebook called titanic.ipynb. Use this notebook to create an in-depth EDA on the Titanic [dataset](https://github.com/SarennahL-C/pf-titanic/blob/69a642be9527a974a3509388138ab50eee0b7283/Titanic.csv) provided. Your EDA should contain descriptions of each step and appropriate visualisations. Use the metadata for the Titanic dataset to familiarise yourself with the data.
 Use the following guiding questions for your EDA:
 > 1. What is the most important factor in determining whether a person was likely to survive the sinking of the Titanic?
 > 2. In the movie, the upper-class passengers were given preference on lifeboats. Does this show in the data?
@@ -18,7 +18,7 @@ Use the following guiding questions for your EDA:
 3. I used stacked histograms to check whether the famous phrase "women and children first" was enacted.
 4. My observation concerned a weak positive correlation between survival and embarking in Cherbourg. On investigation, the correlation occurs because of the high proportion of 1st class passengers joining the Titanic in Cherbourg.
 
-The reviewer's feedback on my project especially highlighted my detailed treatment of the missing age values and the comprehensive nature of my work. View a screenshot of the feedback [here]<https://github.com/SarennahL-C/pf-titanic/blob/43051997789de3818f7b4399fa02fa4345319dc0/Titanic%20feedback.jpg>.
+The reviewer's feedback on my project especially highlighted my detailed treatment of the missing age values and the comprehensive nature of my work. View a screenshot of the feedback [here](https://github.com/SarennahL-C/pf-titanic/blob/43051997789de3818f7b4399fa02fa4345319dc0/Titanic%20feedback.jpg).
 
 #### Requirements
 Install the requirements for Python 3 using `pip install -r requirements.txt`.
