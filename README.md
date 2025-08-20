@@ -18,7 +18,7 @@ Use the following guiding questions for your EDA:
 3. I used stacked histograms to check whether the famous phrase "women and children first" was enacted.
 4. My observation concerned a weak positive correlation between survival and embarking in Cherbourg. On investigation, the correlation occurs because of the high proportion of 1st class passengers joining the Titanic in Cherbourg.
 
-The reviewer's feedback on my project especially highlighted my detailed treatment of the missing age values and the comprehensive nature of my work. View a screenshot of the feedback [here]<>.
+The reviewer's feedback on my project especially highlighted my detailed treatment of the missing age values and the comprehensive nature of my work. View a screenshot of the feedback [here]<https://github.com/SarennahL-C/pf-titanic/blob/43051997789de3818f7b4399fa02fa4345319dc0/Titanic%20feedback.jpg>.
 
 #### Requirements
 Install the requirements for Python 3 using `pip install -r requirements.txt`.
