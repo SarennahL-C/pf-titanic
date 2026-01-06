@@ -1,26 +1,55 @@
-### Portfolio
-I'm curating a portfolio of data science projects I've worked on or am currently working on. Some are for fun and curiosity; others came from a data science bootcamp.
+# Titanic — Exploratory Data Analysis of Survival Patterns
 
-# Titanic
-Like many others, my first significant data science project is based on a version of the Titanic dataset. I admit to getting engrossed in the cleaning process and arriving at the analysis feeling excited to build on that foundation and demonstrate the historically expected results. My feedback on this project has greatly encouraged me to dive deeper into data science.
+This project presents a detailed **Exploratory Data Analysis (EDA)** of the classic Titanic [dataset](https://github.com/SarennahL-C/pf-titanic/blob/69a642be9527a974a3509388138ab50eee0b7283/Titanic.csv), completed as part of a data science bootcamp. Given how frequently this dataset is used, I approached it with the intention of demonstrating **careful data handling, thoughtful analysis, and clear reasoning**, rather than simply reproducing expected outcomes.
+
+I found myself particularly engaged in the data cleaning stage — especially addressing missing values — and used this project to strengthen my analytical workflow and attention to detail.
 
 ![Black and white illustration of the sinking of the Titanic. The Titanic ocean liner is going down by the head with the stern in the air, showing the propellers. There are icebergs in the background. In the foreground, survivors are rowing wooden lifeboats.](Stöwer_Titanic.jpg?raw=true)
 
-The project was a bootcamp task to:
+### What's in this repository
+- **Jupyter Notebook:** step-by-step analysis and findings (`titanic.ipynb`)  
+- **Images:** visuals and reviewer feedback  
+- **Requirements:** Python dependencies (`requirements.txt`)
 
-> Create a Jupyter notebook called titanic.ipynb. Use this notebook to create an in-depth EDA on the Titanic [dataset](https://github.com/SarennahL-C/pf-titanic/blob/69a642be9527a974a3509388138ab50eee0b7283/Titanic.csv) provided. Your EDA should contain descriptions of each step and appropriate visualisations. Use the metadata for the Titanic dataset to familiarise yourself with the data.
-Use the following guiding questions for your EDA:
-> 1. What is the most important factor in determining whether a person was likely to survive the sinking of the Titanic?
-> 2. In the movie, the upper-class passengers were given preference on lifeboats. Does this show in the data?
-> 3. “Women and children first”. Was this the case?
-> 4. Add one other observation that you have noted in the dataset.
+### Project Context
 
-1. To find the most important factor for survival, I found the correlation matrix and showed the correlation heatmap.
-2. To determine if upper-class passengers were prioritised for the lifeboats, I used pandas.groupby() and a grouped bar chart.
-3. I used stacked histograms to check whether the famous phrase "women and children first" was enacted.
-4. My observation concerned a weak positive correlation between survival and embarking in Cherbourg. On investigation, the correlation occurs because of the high proportion of 1st class passengers joining the Titanic in Cherbourg.
+The task was to create a Jupyter Notebook exploring survival outcomes on the RMS Titanic and to investigate several guiding questions, including:
 
-The reviewer's feedback on my project especially highlighted my detailed treatment of the missing age values and the comprehensive nature of my work. View a screenshot of the feedback [here](https://github.com/SarennahL-C/pf-titanic/blob/43051997789de3818f7b4399fa02fa4345319dc0/Titanic%20feedback.jpg).
+- What factors most strongly influenced survival?
+- Did passenger class affect access to lifeboats?
+- Does the data support the “women and children first” principle?
+- What additional patterns emerge from the data?
+
+Rather than rushing to conclusions, I focused on building a solid analytical foundation before interpreting results.
+
+### Approach and Key Insights
+
+The analysis combines structured data cleaning with exploratory visualisation:
+
+- **Missing data treatment:** Particular care was taken in handling missing age values, ensuring assumptions were explicit and justified.
+- **Correlation analysis:** A correlation matrix and heatmap were used to identify relationships between numerical variables and survival.
+- **Passenger class effects:** Grouped bar charts highlighted clear survival advantages associated with higher passenger classes.
+- **Gender and age patterns:** Stacked histograms were used to explore survival differences across sex and age groups.
+- **Embarkation insight:** A positive survival association with embarkation at Cherbourg was identified and traced back to class distribution rather than location alone.
+
+Throughout the analysis, I aimed to distinguish correlation from causation and to explain *why* patterns appeared, not just *that* they did.
+
+### Endorsement
+
+Reviewer [feedback](./Titanic%20feedback.jpg) highlighted the **depth and thoroughness of the analysis**, with particular praise for:
+
+- The **careful and well-reasoned handling of missing age values**
+- The **comprehensive nature of the exploratory work**
+- A clear, methodical approach that went beyond surface-level analysis
+
+### Skills Demonstrated
+
+- Data cleaning and preprocessing  
+- Thoughtful handling of missing data  
+- Exploratory visualisation (heatmaps, histograms, grouped charts)  
+- Analytical reasoning and interpretation  
+- Python, pandas, seaborn, matplotlib, Jupyter Notebook  
 
 #### Requirements
-Install the requirements for Python 3 using `pip install -r requirements.txt`.
+
+Install the required Python dependencies with: `pip install -r requirements.txt`
