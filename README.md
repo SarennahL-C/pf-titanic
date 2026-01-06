@@ -50,6 +50,10 @@ Reviewer [feedback](./Titanic%20feedback.jpg) highlighted the **depth and thorou
 - Analytical reasoning and interpretation  
 - Python, pandas, seaborn, matplotlib, Jupyter Notebook  
 
-#### Requirements
+### Requirements
 
 Install the required Python dependencies with: `pip install -r requirements.txt`
+
+### Why this project belongs in my portfolio
+
+The Titanic dataset is widely used, which makes it a useful benchmark for analytical judgement. This project reflects how I approach well-known problems: by slowing down, questioning assumptions, and prioritising clarity and rigour over novelty.
