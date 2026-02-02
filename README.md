@@ -134,7 +134,7 @@ Hyperparameter tuning was performed on both tree depth and the number of estimat
 
 ### Requirements
 
-Install the required Python dependencies with: `pip install -r requirements.txt`
+Install the required Python dependencies with: `pip install -r requirements.txt` . *Note: Visualisation of decision trees requires Graphviz to be installed on the system.*
 
 ---
 
